@@ -8,6 +8,11 @@ import {
   AiFillInstagram,
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
+import { SiGmail } from 'react-icons/si';
+
+// Code JSX pour l'icône Gmail
+<SiGmail />
+
 
 function Home2() {
   return (
@@ -24,17 +29,13 @@ function Home2() {
               <br />
               <br />I am fluent in classics like
               <i>
-                <b className="purple"> C++, Javascript,Java ,Python, SQL,PHP. </b>
+                <b className="purple"> C++, Javascript,Java ,Python, SQL,PHP, HTML, CSS .</b>
               </i>
               <br />
               <br />
               My field of Interest's are building new &nbsp;
               <i>
-                <b className="purple">Web Technologies and Products </b> and
-                also in areas related to{" "}
-                <b className="purple">
-                  Blockchain.
-                </b>
+                <b className="purple">Web Technologies and Products </b> 
               </i>
               <br />
               <br />
@@ -49,7 +50,15 @@ function Home2() {
               &nbsp; like
               <i>
                 <b className="purple"> React.js and Next.js</b>
+                <br />
+              <br />
               </i>
+              
+              <p>In addition to my technical skills, I have developed a
+                 deep understanding of the workings of the Internet and fundamental 
+                 computing concepts such as binary vision and algorithmic thinking. 
+                 This strong theoretical foundation allows me to approach and comprehend
+                  complex computer science concepts with confidence</p>
             </p>
           </Col>
           <Col md={4} className="myAvtar">
@@ -75,9 +84,20 @@ function Home2() {
                   <AiFillGithub />
                 </a>
               </li>
+              
+
+
+              <li className="social-icons">
+  <a
+    href="lakraflii.ismail@gmail.com"
+    className="icon-colour  home-social-icons"
+  >
+    <SiGmail />
+  </a>
+</li>
               <li className="social-icons">
                 <a
-                  href="https://twitter.com/lakrafli"
+                  href="https://x.com/ILakraflii"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
