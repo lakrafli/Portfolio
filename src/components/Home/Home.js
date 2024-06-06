@@ -21,7 +21,11 @@ function Home() {
               </h1>
 
               <h1 className="heading-name">
+<<<<<<< HEAD
               je suis   
+=======
+                I'M
+>>>>>>> fbeabb1 (Mettre à jour les fichiers avec les nouvelles modifications)
                 <strong className="main-name"> LAKRAFLI    ISMAIL </strong>
               </h1>
 
