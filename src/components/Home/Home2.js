@@ -20,46 +20,41 @@ function Home2() {
       <Container>
         <Row>
           <Col md={8} className="home-about-description">
-            <h1 style={{ fontSize: "2.6em" }}>
-              LET ME <span className="purple"> INTRODUCE </span> MYSELF
-            </h1>
-            <p className="home-about-body">
-              I fell in love with programming and I have at least learnt
-              something, I think… 🤷‍♂️
-              <br />
-              <br />I am fluent in classics like
-              <i>
-                <b className="purple"> C++, Javascript,Java ,Python, SQL,PHP, HTML, CSS .</b>
-              </i>
-              <br />
-              <br />
-              My field of Interest's are building new &nbsp;
-              <i>
-                <b className="purple">Web Technologies and Products </b> 
-              </i>
-              <br />
-              <br />
-              Whenever possible, I also apply my passion for developing products
-              with <b className="purple">Node.js</b> and
-              <i>
-                <b className="purple">
-                  {" "}
-                  Modern Javascript Library and Frameworks
-                </b>
-              </i>
-              &nbsp; like
-              <i>
-                <b className="purple"> React.js and Next.js</b>
-                <br />
-              <br />
-              </i>
-              
-              <p>In addition to my technical skills, I have developed a
-                 deep understanding of the workings of the Internet and fundamental 
-                 computing concepts such as binary vision and algorithmic thinking. 
-                 This strong theoretical foundation allows me to approach and comprehend
-                  complex computer science concepts with confidence</p>
-            </p>
+          <h1 style={{ fontSize: "2.6em" }}>
+  PERMETTEZ-MOI DE <span className="purple"> ME PRÉSENTER </span>
+</h1>
+<p className="home-about-body">
+  Je suis tombé amoureux de la programmation et j'ai au moins appris quelque chose, je pense... 🤷‍♂️
+  <br />
+  <br />Je suis fluent dans les classiques comme
+  <i>
+    <b className="purple"> C++, Javascript, Java, Python, SQL, PHP, HTML, CSS.</b>
+  </i>
+  <br />
+  <br />
+  Mes domaines d'intérêt sont la création de nouvelles &nbsp;
+  <i>
+    <b className="purple">technologies web et produits</b> 
+  </i>
+  <br />
+  <br />
+  Chaque fois que possible, j'applique également ma passion pour développer des produits avec 
+  <b className="purple">Node.js</b> et
+  <i>
+    <b className="purple">les bibliothèques et frameworks Javascript modernes</b>
+  </i>
+  &nbsp; comme
+  <i>
+    <b className="purple">React.js et Next.js</b>
+  </i>
+  <br />
+  <br />
+  <p>En plus de mes compétences techniques, j'ai développé une profonde compréhension du fonctionnement d'Internet et des concepts fondamentaux de l'informatique tels que la vision binaire et la pensée algorithmique. Cette solide base théorique me permet d'aborder et de comprendre les concepts complexes de l'informatique avec confiance.</p>
+  <br />
+  <br />
+  Je suis également à la recherche d'une alternance pour ma troisième année.
+</p>
+
           </Col>
           <Col md={4} className="myAvtar">
             <Tilt>
@@ -69,10 +64,10 @@ function Home2() {
         </Row>
         <Row>
           <Col md={12} className="home-about-social">
-            <h1>FIND ME ON</h1>
-            <p>
-              Feel free to <span className="purple">connect </span>with me
-            </p>
+          <h1>TROUVEZ-MOI SUR</h1>
+          <p>
+               N'hésitez pas à <span className="purple">me contacter</span>
+          </p>
             <ul className="home-about-social-links">
               <li className="social-icons">
                 <a
@@ -90,7 +85,10 @@ function Home2() {
               <li className="social-icons">
   <a
     href="lakraflii.ismail@gmail.com"
+    target="_blank"
+    rel="noreferrer"
     className="icon-colour  home-social-icons"
+    
   >
     <SiGmail />
   </a>

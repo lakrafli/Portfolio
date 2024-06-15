@@ -17,10 +17,10 @@ function Projects() {
       <Particle />
       <Container>
         <h1 className="project-heading">
-          My Recent <strong className="purple">Works </strong>
+        Projets  <strong className="purple">Récents </strong>
         </h1>
         <p style={{ color: "white" }}>
-          Here are a few projects I've worked on recently.
+        Voici quelques projets sur lesquels j'ai travaillé récemment.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
 
@@ -32,9 +32,9 @@ function Projects() {
     title=" The Magic Slate of Farida (Java)"
     description={
       <>
-        The goal of this project was to develop a 
-        <span style={{ color: '#E34F26' }}> Java</span> application for managing a virtual slate where various geometric shapes can be stored and displayed, incorporating concepts such as inheritance, method overriding, and polymorphism
-      </>
+        Le but de ce projet était de développer une application  
+        <span style={{ color: '#E34F26' }}> Java</span> pour gérer une ardoise virtuelle où diverses formes géométriques peuvent être stockées et affichées, en incorporant des concepts tels que l'héritage, la redéfinition de méthode et le polymorphisme.
+        </>
     }
     ghLink="https://github.com/lakrafli/SAE_Java2.01"
   />  
@@ -49,7 +49,7 @@ function Projects() {
     title="Python Project: Implementation of the Brélaz Algorithm"
     description={
       <>
-        Creating a Python Application Utilizing the Brélaz Algorithm for Graph Coloring, Illustrating Complex Concepts in Algorithmics. Using  
+        Création d'une application Python utilisant l'algorithme de Brélaz pour la coloration de graphes, illustrant des concepts complexes en algorithmique. Utilisation de
         <span style={{ color: '#E34F26' }}>  Python</span>,
         <span style={{ color: '#E34F26' }}>  Numpy</span>, 
         <span style={{ color: '#E34F26' }}>  Matplotlib</span>, 
@@ -74,11 +74,11 @@ function Projects() {
     title="Tactic Vision's Dynamic Website "
     description={
       <>
-        Experience the power of Perform Vision's new website designed to connect trainers with ease. Crafted with 
-        <span style={{ color: '#E34F26' }}>PHP</span>, 
-          <span style={{ color: '#E34F26' }}>JS</span>, and 
-        <span style={{ color: '#E34F26' }}>HTML/CSS</span>, it's the ultimate platform for trainers to showcase their services effortlessly.
-      </>
+            Découvrez le pouvoir du nouveau site web de Perform Vision conçu pour connecter les entraîneurs avec facilité. Conçu avec 
+            <span style={{ color: '#E34F26' }}> PHP</span>, 
+            <span style={{ color: '#E34F26' }}> JS</span> et 
+            <span style={{ color: '#E34F26' }}> HTML/CSS</span>, c'est la plateforme ultime pour les entraîneurs pour présenter leurs services sans effort.
+          </>
     }
     ghLink="https://drive.google.com/drive/folders/1Lfv4IfA93pprPU3EkkZwYp8ivE6qEhQb"
   />
@@ -91,9 +91,9 @@ function Projects() {
     title="LaMSN Website Project"
     description={
       <>
-        Explore the LaMSN website, a hub for digital science enthusiasts. Discover the latest news, interactive courses, and innovative projects. Crafted with HTML, CSS, JavaScript, React.js, and 
-        <span style={{ color: '#E34F26' }}> SQL </span> for an immersive user experience.
-      </>
+        Explorez le site web de LaMSN,  un hub pour les passionnés de sciences numériques. Découvrez les dernières nouvelles, des cours interactifs et des projets innovants. Conçu avec HTML, CSS, JavaScript, React.js et
+      <span style={{ color: '#E34F26' }}> SQL</span> pour une expérience utilisateur immersive.
+    </>
     }
     ghLink="https://github.com/lakrafli/La-maison-des-Science-Num-rique"
   />
@@ -107,7 +107,7 @@ function Projects() {
               imgPath={chatify}
               isBlog={false}
               title="restaurant website"
-              description="I'am proud to present to you my website that I created using HTML, CSS, and JavaScript. It is a unique platform that combines both fast food and culinary learning. After three weeks of intensive coding, here is the final result"
+              description="Je suis fier de vous présenter mon site web que j'ai créé en utilisant HTML, CSS et JavaScript. C'est une plateforme unique qui combine à la fois la restauration rapide et l'apprentissage culinaire. Après trois semaines de codage intensif, voici le résultat final."
               ghLink="https://github.com/lakrafli/Site-restauration.github"
               demoLink="https://but-info.xyz/ismail-lakrafli/"
             />
@@ -122,7 +122,7 @@ function Projects() {
               imgPath={bitsOfCode}
               isBlog={false}
               title=" wedding website"
-              description="This wedding website was crafted using CSS3 and HTML5, complemented by some JavaScript development. It marks my inaugural venture into web development "
+              description="Ce site web de mariage a été conçu en utilisant CSS3 et HTML5, complété par un peu de développement JavaScript. Il marque ma première aventure dans le développement web."
               ghLink="https://github.com/lakrafli/Site-de-Mariage"
               demoLink="https://lakrafli.github.io/Site-de-Mariage/"
             />
@@ -141,8 +141,8 @@ function Projects() {
     title="My Portfolio"
     description={
       <>
-        Welcome to my portfolio, a showcase of my skills and projects where technology and creativity converge. This project was built using these technologies: <br/>
-        <span style={{ color: '#E34F26' }}> React.js</span> ,  
+            Bienvenue sur mon portfolio, une vitrine de mes compétences et projets où la technologie et la créativité se rencontrent. Ce projet a été réalisé en utilisant les technologies suivantes : <br/>
+            <span style={{ color: '#E34F26' }}> React.js</span> ,  
         <span style={{ color: '#E34F26' }}> Node.js</span> , 
         <span style={{ color: '#E34F26' }}> Express.js</span> and 
         <span style={{ color: '#E34F26' }}>   Vercel</span>.
