@@ -7,26 +7,25 @@ function AboutCard() {
     <Card className="quote-card-view">
       <Card.Body>
         <blockquote className="blockquote mb-0">
-          <p style={{ textAlign: "justify" }}>
-            Hi Everyone, I am <span className="purple">Lakrafli Ismail </span>
-            from <span className="purple"> Morocco  .</span>
-            <br />
-            I am a second-year computer science student at the University of Technology Sorbonne Paris Nord
-            
-            <br />
-            Apart from coding, some other activities that I love to do!
-          </p>
-          <ul>
-            <li className="about-activity">
-              <ImPointRight /> Playing Games
-            </li>
-            <li className="about-activity">
-              <ImPointRight /> Writing Tech Blogs
-            </li>
-            <li className="about-activity">
-              <ImPointRight /> Soccer player
-            </li>
-          </ul>
+        <p style={{ textAlign: "justify" }}>
+  Bonjour à tous, je suis <span className="purple">Lakrafli Ismail</span>.
+  <br />
+  Je suis étudiant en deuxième année d'informatique à l'Université  Sorbonne Paris Nord, où je prépare mon diplôme de BUT INFO ("Bachelor Université de Technologies").
+  <br />
+  <br />
+
+  En dehors de la programmation, voici quelques autres activités que j'aime faire !
+</p>
+<ul>
+  <li className="about-activity">
+    <ImPointRight /> Jouer à des jeux
+  </li>
+
+  <li className="about-activity">
+    <ImPointRight /> Jouer au football
+  </li>
+</ul>
+
 
           <p style={{ color: "rgb(155 126 172)" }}>
             "Strive to build things that make a difference!"{" "}
